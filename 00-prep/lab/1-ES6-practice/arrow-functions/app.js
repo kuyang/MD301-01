@@ -135,7 +135,9 @@ console.log(objectLit());
 
 //const addOneLiner = (num1, num2) => `${num1} + ${num2} = ${num1 + num2}`;
 
-//const sumAndProduct = (a, b) => `[${a+b},${a*b}]`;
+const sumAndProduct = (a, b) => [`${a+b}, ${a*b}`];
+
+
 let sumAndProduct = function(a, b) {
   let sum = a + b;
   let product = a * b;
